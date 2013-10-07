@@ -1,0 +1,10 @@
+CACHE MANIFEST
+index.html
+stylesheet.css
+images/logo.png
+scripts/main.js
+test.html
+FALLBACK:
+http://www.google.de/ /offline.html
+NETWORK:
+*

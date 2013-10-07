@@ -1,0 +1,18 @@
+CACHE MANIFEST
+index.html
+stylesheet.css
+images/logo.png
+  	scripts/main.js
+https://www.example.com/test.html
+# This should be filtered:
+http://applicationcache.sven.to:8080/ab/manifest3.appcache
+http://applicationcache.sven.to:8080/ab/test.html
+# Not same scheme
+https://www.heise.de/test.html		
+UNKOWN:
+someentry.html
+NETWORK:
+*
+FALLBACK:
+# Not Same Origin:
+http://www.google.de/ /offline.html

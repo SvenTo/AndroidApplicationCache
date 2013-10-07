@@ -1,0 +1,14 @@
+CACHE MANIFEST
+
+CACHE:
+index.html
+about.html
+offline.html
+# Duplicate Entry:
+index.html
+
+FALLBACK:
+# Duplicate Fallback:
+online.html offline.html
+# New Fallback:
+online.css offline.css
